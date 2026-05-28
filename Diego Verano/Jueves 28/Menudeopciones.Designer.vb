@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
-Partial Class Form1
+Partial Class Menudeopciones
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -22,6 +22,7 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Menudeopciones))
         Label1 = New Label()
         Label2 = New Label()
         Label3 = New Label()
@@ -32,6 +33,7 @@ Partial Class Form1
         AcercaDeToolStripMenuItem = New ToolStripMenuItem()
         Label4 = New Label()
         DateTimePicker1 = New DateTimePicker()
+        FacturaToolStripMenuItem = New ToolStripMenuItem()
         MenuStrip1.SuspendLayout()
         SuspendLayout()
         ' 
@@ -79,7 +81,7 @@ Partial Class Form1
         ' 
         ' FormatoToolStripMenuItem
         ' 
-        FormatoToolStripMenuItem.DropDownItems.AddRange(New ToolStripItem() {OtraPestañaToolStripMenuItem})
+        FormatoToolStripMenuItem.DropDownItems.AddRange(New ToolStripItem() {OtraPestañaToolStripMenuItem, FacturaToolStripMenuItem})
         FormatoToolStripMenuItem.Name = "FormatoToolStripMenuItem"
         FormatoToolStripMenuItem.Size = New Size(64, 20)
         FormatoToolStripMenuItem.Text = "Formato"
@@ -87,7 +89,7 @@ Partial Class Form1
         ' OtraPestañaToolStripMenuItem
         ' 
         OtraPestañaToolStripMenuItem.Name = "OtraPestañaToolStripMenuItem"
-        OtraPestañaToolStripMenuItem.Size = New Size(137, 22)
+        OtraPestañaToolStripMenuItem.Size = New Size(180, 22)
         OtraPestañaToolStripMenuItem.Text = "Calculadora"
         ' 
         ' FondoToolStripMenuItem
@@ -121,6 +123,12 @@ Partial Class Form1
         DateTimePicker1.Size = New Size(234, 23)
         DateTimePicker1.TabIndex = 3
         ' 
+        ' FacturaToolStripMenuItem
+        ' 
+        FacturaToolStripMenuItem.Name = "FacturaToolStripMenuItem"
+        FacturaToolStripMenuItem.Size = New Size(180, 22)
+        FacturaToolStripMenuItem.Text = "Factura"
+        ' 
         ' Form1
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
@@ -132,6 +140,7 @@ Partial Class Form1
         Controls.Add(Label2)
         Controls.Add(Label1)
         Controls.Add(MenuStrip1)
+        Icon = CType(resources.GetObject("$this.Icon"), Icon)
         MainMenuStrip = MenuStrip1
         Name = "Form1"
         Text = "Form1"
@@ -151,5 +160,6 @@ Partial Class Form1
     Friend WithEvents OtraPestañaToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents Label4 As Label
     Friend WithEvents DateTimePicker1 As DateTimePicker
+    Friend WithEvents FacturaToolStripMenuItem As ToolStripMenuItem
 
 End Class

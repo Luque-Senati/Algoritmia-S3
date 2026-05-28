@@ -1,4 +1,4 @@
-﻿Public Class Form2
+﻿Public Class Calculadora
     Private memoria1 As Double = 0.0
     Private memoria2 As Double = 0.0
     Private signo As String
@@ -120,11 +120,11 @@
         Select Case signo
             Case "+"
                 resolucion.Text = memoria1 + memoria2
-            case "-"
+            Case "-"
                 resolucion.Text = memoria1 - memoria2
             Case "*"
                 resolucion.Text = memoria1 * memoria2
-            case "/"
+            Case "/"
                 resolucion.Text = memoria1 / memoria2
             Case Else
                 MessageBox.Show("Operación no válida")
