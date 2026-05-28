@@ -38,7 +38,7 @@ Partial Class Form1
         ' 
         Label1.Font = New Font("Arial", 14.25F, FontStyle.Bold)
         Label1.ForeColor = Color.Red
-        Label1.Location = New Point(70, 58)
+        Label1.Location = New Point(146, 45)
         Label1.Name = "Label1"
         Label1.Size = New Size(342, 34)
         Label1.TabIndex = 0
@@ -52,16 +52,16 @@ Partial Class Form1
         Label2.ForeColor = Color.Red
         Label2.Location = New Point(70, 110)
         Label2.Name = "Label2"
-        Label2.Size = New Size(220, 22)
+        Label2.Size = New Size(221, 22)
         Label2.TabIndex = 0
-        Label2.Text = "Nombre del Estudiante"
+        Label2.Text = "Diego Verano Laverian"
         ' 
         ' Label3
         ' 
         Label3.AutoSize = True
         Label3.Font = New Font("Arial", 14.25F, FontStyle.Bold)
         Label3.ForeColor = Color.Red
-        Label3.Location = New Point(70, 157)
+        Label3.Location = New Point(70, 159)
         Label3.Name = "Label3"
         Label3.Size = New Size(79, 22)
         Label3.TabIndex = 0

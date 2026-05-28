@@ -156,7 +156,7 @@ Partial Class Form2
         Bmult.Name = "Bmult"
         Bmult.Size = New Size(57, 60)
         Bmult.TabIndex = 0
-        Bmult.Text = "x"
+        Bmult.Text = "*"
         Bmult.UseVisualStyleBackColor = True
         ' 
         ' Bdiv
@@ -183,7 +183,7 @@ Partial Class Form2
         Blimpiar.Name = "Blimpiar"
         Blimpiar.Size = New Size(57, 60)
         Blimpiar.TabIndex = 0
-        Blimpiar.Text = "C"
+        Blimpiar.Text = "CE"
         Blimpiar.UseVisualStyleBackColor = True
         ' 
         ' resolucion
