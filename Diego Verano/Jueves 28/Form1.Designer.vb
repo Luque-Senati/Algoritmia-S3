@@ -86,7 +86,7 @@ Partial Class Form1
         ' OtraPestañaToolStripMenuItem
         ' 
         OtraPestañaToolStripMenuItem.Name = "OtraPestañaToolStripMenuItem"
-        OtraPestañaToolStripMenuItem.Size = New Size(180, 22)
+        OtraPestañaToolStripMenuItem.Size = New Size(137, 22)
         OtraPestañaToolStripMenuItem.Text = "Calculadora"
         ' 
         ' FondoToolStripMenuItem

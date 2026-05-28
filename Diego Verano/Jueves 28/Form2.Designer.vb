@@ -38,6 +38,7 @@ Partial Class Form2
         Bdiv = New Button()
         Bresultado = New Button()
         Blimpiar = New Button()
+        resolucion = New TextBox()
         SuspendLayout()
         ' 
         ' Buno
@@ -185,11 +186,22 @@ Partial Class Form2
         Blimpiar.Text = "C"
         Blimpiar.UseVisualStyleBackColor = True
         ' 
+        ' resolucion
+        ' 
+        resolucion.BorderStyle = BorderStyle.FixedSingle
+        resolucion.Font = New Font("Segoe UI Semibold", 14.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        resolucion.Location = New Point(14, 28)
+        resolucion.Multiline = True
+        resolucion.Name = "resolucion"
+        resolucion.Size = New Size(246, 97)
+        resolucion.TabIndex = 1
+        ' 
         ' Form2
         ' 
-        AutoScaleDimensions = New SizeF(7.0F, 15.0F)
+        AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(272, 422)
+        Controls.Add(resolucion)
         Controls.Add(Blimpiar)
         Controls.Add(Bresultado)
         Controls.Add(Bdiv)
@@ -209,6 +221,7 @@ Partial Class Form2
         Name = "Form2"
         Text = "Calculadora"
         ResumeLayout(False)
+        PerformLayout()
     End Sub
 
     Friend WithEvents Buno As Button
@@ -227,5 +240,6 @@ Partial Class Form2
     Friend WithEvents Bdiv As Button
     Friend WithEvents Bresultado As Button
     Friend WithEvents Blimpiar As Button
+    Friend WithEvents resolucion As TextBox
 
 End Class
