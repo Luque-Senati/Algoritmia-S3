@@ -23,41 +23,41 @@ Partial Class Factura
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Panel1 = New Panel()
-        ComboBox1 = New ComboBox()
-        TextBox3 = New TextBox()
-        TextBox1 = New TextBox()
+        Beliminar = New Button()
+        Bagregar = New Button()
+        cproducto = New ComboBox()
+        Me.cantidad = New TextBox()
+        cantidad = New TextBox()
         Label7 = New Label()
-        Label6 = New Label()
-        Label5 = New Label()
-        Label2 = New Label()
+        Me.codigo = New Label()
+        Me.nombre = New Label()
+        Me.precio = New Label()
+        devolucion = New Label()
+        pagar = New Label()
+        Label11 = New Label()
+        Label10 = New Label()
+        Label9 = New Label()
         Label8 = New Label()
         Label4 = New Label()
-        Label3 = New Label()
+        Me.label = New Label()
         año = New Label()
-        DataGridView1 = New DataGridView()
+        Me.DGproducto = New DataGridView()
         Label1 = New Label()
-        Button1 = New Button()
-        Button2 = New Button()
-        Label9 = New Label()
-        Label10 = New Label()
-        Label11 = New Label()
-        pagar = New Label()
-        devolucion = New Label()
         Panel1.SuspendLayout()
-        CType(DataGridView1, ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.DGproducto, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
         ' Panel1
         ' 
-        Panel1.Controls.Add(Button2)
-        Panel1.Controls.Add(Button1)
-        Panel1.Controls.Add(ComboBox1)
-        Panel1.Controls.Add(TextBox3)
-        Panel1.Controls.Add(TextBox1)
+        Panel1.Controls.Add(Beliminar)
+        Panel1.Controls.Add(Bagregar)
+        Panel1.Controls.Add(Me.cproducto)
+        Panel1.Controls.Add(Me.cantidad)
+        Panel1.Controls.Add(cantidad)
         Panel1.Controls.Add(Label7)
-        Panel1.Controls.Add(Label6)
-        Panel1.Controls.Add(Label5)
-        Panel1.Controls.Add(Label2)
+        Panel1.Controls.Add(Me.codigo)
+        Panel1.Controls.Add(Me.nombre)
+        Panel1.Controls.Add(Me.precio)
         Panel1.Controls.Add(devolucion)
         Panel1.Controls.Add(pagar)
         Panel1.Controls.Add(Label11)
@@ -65,35 +65,53 @@ Partial Class Factura
         Panel1.Controls.Add(Label9)
         Panel1.Controls.Add(Label8)
         Panel1.Controls.Add(Label4)
-        Panel1.Controls.Add(Label3)
+        Panel1.Controls.Add(Me.label)
         Panel1.Controls.Add(año)
-        Panel1.Controls.Add(DataGridView1)
+        Panel1.Controls.Add(Me.DGproducto)
         Panel1.Location = New Point(12, 59)
         Panel1.Name = "Panel1"
         Panel1.Size = New Size(479, 453)
         Panel1.TabIndex = 0
         ' 
-        ' ComboBox1
+        ' Beliminar
         ' 
-        ComboBox1.FormattingEnabled = True
-        ComboBox1.Location = New Point(217, 27)
-        ComboBox1.Name = "ComboBox1"
-        ComboBox1.Size = New Size(121, 23)
-        ComboBox1.TabIndex = 3
+        Beliminar.Location = New Point(349, 97)
+        Beliminar.Name = "Beliminar"
+        Beliminar.Size = New Size(105, 34)
+        Beliminar.TabIndex = 4
+        Beliminar.Text = "Eliminar"
+        Beliminar.UseVisualStyleBackColor = True
         ' 
-        ' TextBox3
+        ' Bagregar
         ' 
-        TextBox3.Location = New Point(217, 137)
-        TextBox3.Name = "TextBox3"
-        TextBox3.Size = New Size(100, 23)
-        TextBox3.TabIndex = 2
+        Bagregar.Location = New Point(349, 57)
+        Bagregar.Name = "Bagregar"
+        Bagregar.Size = New Size(105, 34)
+        Bagregar.TabIndex = 4
+        Bagregar.Text = "Agregar"
+        Bagregar.UseVisualStyleBackColor = True
         ' 
-        ' TextBox1
+        ' cproducto
         ' 
-        TextBox1.Location = New Point(186, 397)
-        TextBox1.Name = "TextBox1"
-        TextBox1.Size = New Size(100, 23)
-        TextBox1.TabIndex = 2
+        Me.cproducto.FormattingEnabled = True
+        Me.cproducto.Location = New Point(217, 27)
+        Me.cproducto.Name = "cproducto"
+        Me.cproducto.Size = New Size(121, 23)
+        Me.cproducto.TabIndex = 3
+        ' 
+        ' cantidad
+        ' 
+        Me.cantidad.Location = New Point(217, 137)
+        Me.cantidad.Name = "cantidad"
+        Me.cantidad.Size = New Size(100, 23)
+        Me.cantidad.TabIndex = 2
+        ' 
+        ' cantidad
+        ' 
+        cantidad.Location = New Point(186, 397)
+        cantidad.Name = "TextBox1"
+        cantidad.Size = New Size(100, 23)
+        cantidad.TabIndex = 2
         ' 
         ' Label7
         ' 
@@ -104,32 +122,77 @@ Partial Class Factura
         Label7.TabIndex = 1
         Label7.Text = "Nombre"
         ' 
-        ' Label6
+        ' codigo
         ' 
-        Label6.AutoSize = True
-        Label6.Location = New Point(217, 61)
-        Label6.Name = "Label6"
-        Label6.Size = New Size(12, 15)
-        Label6.TabIndex = 1
-        Label6.Text = "-"
+        Me.codigo.AutoSize = True
+        Me.codigo.Location = New Point(217, 61)
+        Me.codigo.Name = "codigo"
+        Me.codigo.Size = New Size(12, 15)
+        Me.codigo.TabIndex = 1
+        Me.codigo.Text = "-"
         ' 
-        ' Label5
+        ' nombre
         ' 
-        Label5.AutoSize = True
-        Label5.Location = New Point(217, 88)
-        Label5.Name = "Label5"
-        Label5.Size = New Size(12, 15)
-        Label5.TabIndex = 1
-        Label5.Text = "-"
+        Me.nombre.AutoSize = True
+        Me.nombre.Location = New Point(217, 88)
+        Me.nombre.Name = "nombre"
+        Me.nombre.Size = New Size(12, 15)
+        Me.nombre.TabIndex = 1
+        Me.nombre.Text = "-"
         ' 
-        ' Label2
+        ' precio
         ' 
-        Label2.AutoSize = True
-        Label2.Location = New Point(217, 115)
-        Label2.Name = "Label2"
-        Label2.Size = New Size(12, 15)
-        Label2.TabIndex = 1
-        Label2.Text = "-"
+        Me.precio.AutoSize = True
+        Me.precio.Location = New Point(217, 115)
+        Me.precio.Name = "precio"
+        Me.precio.Size = New Size(12, 15)
+        Me.precio.TabIndex = 1
+        Me.precio.Text = "-"
+        ' 
+        ' devolucion
+        ' 
+        devolucion.AutoSize = True
+        devolucion.Location = New Point(369, 405)
+        devolucion.Name = "devolucion"
+        devolucion.Size = New Size(12, 15)
+        devolucion.TabIndex = 1
+        devolucion.Text = "-"
+        ' 
+        ' pagar
+        ' 
+        pagar.AutoSize = True
+        pagar.Location = New Point(94, 405)
+        pagar.Name = "pagar"
+        pagar.Size = New Size(12, 15)
+        pagar.TabIndex = 1
+        pagar.Text = "-"
+        ' 
+        ' Label11
+        ' 
+        Label11.AutoSize = True
+        Label11.Location = New Point(72, 361)
+        Label11.Name = "Label11"
+        Label11.Size = New Size(77, 15)
+        Label11.TabIndex = 1
+        Label11.Text = "Total A Pagar"
+        ' 
+        ' Label10
+        ' 
+        Label10.AutoSize = True
+        Label10.Location = New Point(349, 361)
+        Label10.Name = "Label10"
+        Label10.Size = New Size(67, 15)
+        Label10.TabIndex = 1
+        Label10.Text = "Devolución"
+        ' 
+        ' Label9
+        ' 
+        Label9.AutoSize = True
+        Label9.Location = New Point(203, 361)
+        Label9.Name = "Label9"
+        Label9.Size = New Size(49, 15)
+        Label9.TabIndex = 1
+        Label9.Text = "Efectivo"
         ' 
         ' Label8
         ' 
@@ -149,142 +212,80 @@ Partial Class Factura
         Label4.TabIndex = 1
         Label4.Text = "Precio"
         ' 
-        ' Label3
+        ' label
         ' 
-        Label3.AutoSize = True
-        Label3.Location = New Point(50, 61)
-        Label3.Name = "Label3"
-        Label3.Size = New Size(33, 15)
-        Label3.TabIndex = 1
-        Label3.Text = "Edad"
+        Me.label.AutoSize = True
+        Me.label.Location = New Point(50, 61)
+        Me.label.Name = "label"
+        Me.label.Size = New Size(46, 15)
+        Me.label.TabIndex = 1
+        Me.label.Text = "Codigo"
         ' 
         ' año
         ' 
         año.AutoSize = True
         año.Location = New Point(44, 30)
         año.Name = "año"
-        año.Size = New Size(116, 15)
+        año.Size = New Size(56, 15)
         año.TabIndex = 1
-        año.Text = "Nombre del criminal"
+        año.Text = "Producto"
         ' 
-        ' DataGridView1
+        ' DGproducto
         ' 
-        DataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        DataGridView1.Location = New Point(24, 166)
-        DataGridView1.Name = "DataGridView1"
-        DataGridView1.Size = New Size(430, 179)
-        DataGridView1.TabIndex = 0
+        Me.DGproducto.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.DGproducto.Location = New Point(24, 166)
+        Me.DGproducto.Name = "DGproducto"
+        Me.DGproducto.Size = New Size(430, 179)
+        Me.DGproducto.TabIndex = 0
         ' 
         ' Label1
         ' 
         Label1.AutoSize = True
         Label1.Font = New Font("Arial", 20.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Label1.Location = New Point(36, 9)
+        Label1.Location = New Point(56, 9)
         Label1.Name = "Label1"
-        Label1.Size = New Size(357, 32)
+        Label1.Size = New Size(391, 32)
         Label1.TabIndex = 1
-        Label1.Text = "Criminales más buscados"
+        Label1.Text = "Factura Tienda San Maritinio"
         Label1.TextAlign = ContentAlignment.MiddleCenter
         ' 
-        ' Button1
-        ' 
-        Button1.Location = New Point(349, 57)
-        Button1.Name = "Button1"
-        Button1.Size = New Size(105, 34)
-        Button1.TabIndex = 4
-        Button1.Text = "Button1"
-        Button1.UseVisualStyleBackColor = True
-        ' 
-        ' Button2
-        ' 
-        Button2.Location = New Point(349, 97)
-        Button2.Name = "Button2"
-        Button2.Size = New Size(105, 34)
-        Button2.TabIndex = 4
-        Button2.Text = "Button1"
-        Button2.UseVisualStyleBackColor = True
-        ' 
-        ' Label9
-        ' 
-        Label9.AutoSize = True
-        Label9.Location = New Point(203, 361)
-        Label9.Name = "Label9"
-        Label9.Size = New Size(49, 15)
-        Label9.TabIndex = 1
-        Label9.Text = "Efectivo"
-        ' 
-        ' Label10
-        ' 
-        Label10.AutoSize = True
-        Label10.Location = New Point(349, 361)
-        Label10.Name = "Label10"
-        Label10.Size = New Size(67, 15)
-        Label10.TabIndex = 1
-        Label10.Text = "Devolución"
-        ' 
-        ' Label11
-        ' 
-        Label11.AutoSize = True
-        Label11.Location = New Point(72, 361)
-        Label11.Name = "Label11"
-        Label11.Size = New Size(77, 15)
-        Label11.TabIndex = 1
-        Label11.Text = "Total A Pagar"
-        ' 
-        ' pagar
-        ' 
-        pagar.AutoSize = True
-        pagar.Location = New Point(94, 405)
-        pagar.Name = "pagar"
-        pagar.Size = New Size(12, 15)
-        pagar.TabIndex = 1
-        pagar.Text = "-"
-        ' 
-        ' devolucion
-        ' 
-        devolucion.AutoSize = True
-        devolucion.Location = New Point(369, 405)
-        devolucion.Name = "devolucion"
-        devolucion.Size = New Size(12, 15)
-        devolucion.TabIndex = 1
-        devolucion.Text = "-"
-        ' 
-        ' Factura
+        ' factura
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(501, 571)
         Controls.Add(Label1)
         Controls.Add(Panel1)
-        Name = "Factura"
+        Name = "factura"
         StartPosition = FormStartPosition.CenterScreen
-        Text = "Criminales buscados por la INTERPOL"
+        Text = "Tienda San Maritinio"
         Panel1.ResumeLayout(False)
         Panel1.PerformLayout()
-        CType(DataGridView1, ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.DGproducto, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
         PerformLayout()
     End Sub
 
     Friend WithEvents Panel1 As Panel
     Friend WithEvents Label1 As Label
-    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents cantidad As TextBox
+    Friend WithEvents Label10 As Label
+    Friend WithEvents codigo As Label
+    Friend WithEvents cpro As Label
+    Friend WithEvents label As Label
     Friend WithEvents Label7 As Label
-    Friend WithEvents Label6 As Label
-    Friend WithEvents Label5 As Label
-    Friend WithEvents Label2 As Label
     Friend WithEvents Label4 As Label
-    Friend WithEvents Label3 As Label
     Friend WithEvents año As Label
-    Friend WithEvents DataGridView1 As DataGridView
-    Friend WithEvents Label8 As Label
-    Friend WithEvents ComboBox1 As ComboBox
+    Friend WithEvents DGproducto As DataGridView
+    Friend WithEvents nombre As Label
+    Friend WithEvents cproducto As ComboBox
     Friend WithEvents TextBox3 As TextBox
-    Friend WithEvents Button2 As Button
-    Friend WithEvents Button1 As Button
+    Friend WithEvents Beliminar As Button
+    Friend WithEvents Bagregar As Button
     Friend WithEvents devolucion As Label
     Friend WithEvents pagar As Label
-    Friend WithEvents Label11 As Label
-    Friend WithEvents Label10 As Label
+    Friend WithEvents precio As Label
     Friend WithEvents Label9 As Label
+    Friend WithEvents Label8 As Label
+    Friend WithEvents Label11 As Label
 End Class
