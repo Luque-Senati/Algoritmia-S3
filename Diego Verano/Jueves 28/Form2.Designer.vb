@@ -189,12 +189,13 @@ Partial Class Form2
         ' resolucion
         ' 
         resolucion.BorderStyle = BorderStyle.FixedSingle
-        resolucion.Font = New Font("Segoe UI Semibold", 14.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        resolucion.Font = New Font("Segoe UI Semibold", 34.25F, FontStyle.Bold)
         resolucion.Location = New Point(14, 28)
         resolucion.Multiline = True
         resolucion.Name = "resolucion"
         resolucion.Size = New Size(246, 97)
         resolucion.TabIndex = 1
+        resolucion.TextAlign = HorizontalAlignment.Right
         ' 
         ' Form2
         ' 

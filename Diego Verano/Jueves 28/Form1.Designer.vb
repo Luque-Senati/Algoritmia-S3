@@ -31,6 +31,7 @@ Partial Class Form1
         FondoToolStripMenuItem = New ToolStripMenuItem()
         AcercaDeToolStripMenuItem = New ToolStripMenuItem()
         Label4 = New Label()
+        DateTimePicker1 = New DateTimePicker()
         MenuStrip1.SuspendLayout()
         SuspendLayout()
         ' 
@@ -107,17 +108,25 @@ Partial Class Form1
         Label4.BackColor = Color.FromArgb(CByte(128), CByte(128), CByte(255))
         Label4.Font = New Font("Arial", 20.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label4.ForeColor = SystemColors.ControlText
-        Label4.Location = New Point(91, 311)
+        Label4.Location = New Point(270, 320)
         Label4.Name = "Label4"
         Label4.Size = New Size(93, 32)
         Label4.TabIndex = 2
         Label4.Text = "Fecha"
+        ' 
+        ' DateTimePicker1
+        ' 
+        DateTimePicker1.Location = New Point(213, 281)
+        DateTimePicker1.Name = "DateTimePicker1"
+        DateTimePicker1.Size = New Size(234, 23)
+        DateTimePicker1.TabIndex = 3
         ' 
         ' Form1
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(618, 468)
+        Controls.Add(DateTimePicker1)
         Controls.Add(Label4)
         Controls.Add(Label3)
         Controls.Add(Label2)
@@ -141,5 +150,6 @@ Partial Class Form1
     Friend WithEvents AcercaDeToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents OtraPestañaToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents Label4 As Label
+    Friend WithEvents DateTimePicker1 As DateTimePicker
 
 End Class
