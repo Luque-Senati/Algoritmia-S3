@@ -9,3 +9,15 @@ C:\Users\Ciberseguridad\source\repos\Introduccion 2\obj\Debug\Introduccion 2.csp
 C:\Users\Ciberseguridad\source\repos\Introduccion 2\obj\Debug\Introduccion 2.exe
 C:\Users\Ciberseguridad\source\repos\Introduccion 2\obj\Debug\Introduccion 2.pdb
 C:\Users\Ciberseguridad\source\repos\Introduccion 2\obj\Debug\Introduccion_2.Menú.resources
+C:\Users\diego\source\repos\Luque-Senati\Algoritmia-S3\Diego Verano\Introduccion 2\bin\Debug\Introduccion 2.exe.config
+C:\Users\diego\source\repos\Luque-Senati\Algoritmia-S3\Diego Verano\Introduccion 2\bin\Debug\Introduccion 2.exe
+C:\Users\diego\source\repos\Luque-Senati\Algoritmia-S3\Diego Verano\Introduccion 2\bin\Debug\Introduccion 2.pdb
+C:\Users\diego\source\repos\Luque-Senati\Algoritmia-S3\Diego Verano\Introduccion 2\obj\Debug\Introduccion 2.csproj.AssemblyReference.cache
+C:\Users\diego\source\repos\Luque-Senati\Algoritmia-S3\Diego Verano\Introduccion 2\obj\Debug\Introduccion_2.Calculos.resources
+C:\Users\diego\source\repos\Luque-Senati\Algoritmia-S3\Diego Verano\Introduccion 2\obj\Debug\Introduccion_2.Form1.resources
+C:\Users\diego\source\repos\Luque-Senati\Algoritmia-S3\Diego Verano\Introduccion 2\obj\Debug\Introduccion_2.Menú.resources
+C:\Users\diego\source\repos\Luque-Senati\Algoritmia-S3\Diego Verano\Introduccion 2\obj\Debug\Introduccion_2.Properties.Resources.resources
+C:\Users\diego\source\repos\Luque-Senati\Algoritmia-S3\Diego Verano\Introduccion 2\obj\Debug\Introduccion 2.csproj.GenerateResource.cache
+C:\Users\diego\source\repos\Luque-Senati\Algoritmia-S3\Diego Verano\Introduccion 2\obj\Debug\Introduccion 2.csproj.CoreCompileInputs.cache
+C:\Users\diego\source\repos\Luque-Senati\Algoritmia-S3\Diego Verano\Introduccion 2\obj\Debug\Introduccion 2.exe
+C:\Users\diego\source\repos\Luque-Senati\Algoritmia-S3\Diego Verano\Introduccion 2\obj\Debug\Introduccion 2.pdb

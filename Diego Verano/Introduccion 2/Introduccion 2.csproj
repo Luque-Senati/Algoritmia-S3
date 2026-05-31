@@ -46,11 +46,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="Información y variables.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Información y variables.Designer.cs">
+      <DependentUpon>Información y variables.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Calculos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Calculos.Designer.cs">
+      <DependentUpon>Calculos.cs</DependentUpon>
     </Compile>
     <Compile Include="Menú.cs">
       <SubType>Form</SubType>
@@ -60,8 +66,11 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="Calculos.resx">
+      <DependentUpon>Calculos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Información y variables.resx">
+      <DependentUpon>Información y variables.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Menú.resx">
       <DependentUpon>Menú.cs</DependentUpon>
