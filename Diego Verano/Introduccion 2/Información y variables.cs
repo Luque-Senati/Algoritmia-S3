@@ -47,14 +47,22 @@ namespace Introduccion_2
 
         }
 
-        private void btnmenu_click(object sender, EventArgs e)
-        {
-           
-        }
-
         private void btncalculo_Click_1(object sender, EventArgs e)
         {
-            // Application.Run(new Calculos());
+            Calculos pestcalculo = new Calculos();
+
+
+            pestcalculo.Show/*Dialog*/();
+            //El Dialog sirve para "bloquear" la ventana que se ha abierto haciendo que no se pueda clickear en otro lado
+
+
+        }
+
+        private void btnmenu_Click_1(object sender, EventArgs e)
+        {
+            Menú pestmenu = new Menú();
+
+            pestmenu.Show();
         }
     }
 }

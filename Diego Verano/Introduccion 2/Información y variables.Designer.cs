@@ -46,7 +46,7 @@
             // btnprueba
             // 
             this.btnprueba.Location = new System.Drawing.Point(209, 463);
-            this.btnprueba.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnprueba.Margin = new System.Windows.Forms.Padding(4);
             this.btnprueba.Name = "btnprueba";
             this.btnprueba.Size = new System.Drawing.Size(204, 95);
             this.btnprueba.TabIndex = 0;
@@ -57,7 +57,7 @@
             // txtnombre
             // 
             this.txtnombre.Location = new System.Drawing.Point(304, 55);
-            this.txtnombre.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtnombre.Margin = new System.Windows.Forms.Padding(4);
             this.txtnombre.Name = "txtnombre";
             this.txtnombre.Size = new System.Drawing.Size(132, 22);
             this.txtnombre.TabIndex = 1;
@@ -75,7 +75,7 @@
             // txttallapolo
             // 
             this.txttallapolo.Location = new System.Drawing.Point(304, 155);
-            this.txttallapolo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txttallapolo.Margin = new System.Windows.Forms.Padding(4);
             this.txttallapolo.Name = "txttallapolo";
             this.txttallapolo.Size = new System.Drawing.Size(132, 22);
             this.txttallapolo.TabIndex = 1;
@@ -93,7 +93,7 @@
             // txtinicial
             // 
             this.txtinicial.Location = new System.Drawing.Point(304, 107);
-            this.txtinicial.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtinicial.Margin = new System.Windows.Forms.Padding(4);
             this.txtinicial.Name = "txtinicial";
             this.txtinicial.Size = new System.Drawing.Size(132, 22);
             this.txtinicial.TabIndex = 1;
@@ -111,7 +111,7 @@
             // txttallacamisa
             // 
             this.txttallacamisa.Location = new System.Drawing.Point(304, 207);
-            this.txttallacamisa.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txttallacamisa.Margin = new System.Windows.Forms.Padding(4);
             this.txttallacamisa.Name = "txttallacamisa";
             this.txttallacamisa.Size = new System.Drawing.Size(132, 22);
             this.txttallacamisa.TabIndex = 1;
@@ -129,7 +129,7 @@
             // txtonline
             // 
             this.txtonline.Location = new System.Drawing.Point(304, 255);
-            this.txtonline.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtonline.Margin = new System.Windows.Forms.Padding(4);
             this.txtonline.Name = "txtonline";
             this.txtonline.Size = new System.Drawing.Size(132, 22);
             this.txtonline.TabIndex = 1;
@@ -162,6 +162,7 @@
             this.btnmenu.TabIndex = 4;
             this.btnmenu.Text = "Menu";
             this.btnmenu.UseVisualStyleBackColor = true;
+            this.btnmenu.Click += new System.EventHandler(this.btnmenu_Click_1);
             // 
             // Form1
             // 
@@ -181,7 +182,7 @@
             this.Controls.Add(this.lblnombre);
             this.Controls.Add(this.txtnombre);
             this.Controls.Add(this.btnprueba);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.Text = "Variables";
             this.ResumeLayout(false);
