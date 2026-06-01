@@ -33,14 +33,14 @@
             this.rbtntrespor = new System.Windows.Forms.RadioButton();
             this.lbloperacion = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.dataGridView2 = new System.Windows.Forms.DataGridView();
-            this.dataGridView3 = new System.Windows.Forms.DataGridView();
+            this.dGVdatouno = new System.Windows.Forms.DataGridView();
+            this.dGVdatodos = new System.Windows.Forms.DataGridView();
+            this.dGVresultado = new System.Windows.Forms.DataGridView();
             this.btnsuma = new System.Windows.Forms.Button();
             this.btnresta = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dGVdatouno)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dGVdatodos)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dGVresultado)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -55,6 +55,7 @@
             // rbtndospor
             // 
             this.rbtndospor.AutoSize = true;
+            this.rbtndospor.Checked = true;
             this.rbtndospor.Location = new System.Drawing.Point(125, 116);
             this.rbtndospor.Name = "rbtndospor";
             this.rbtndospor.Size = new System.Drawing.Size(48, 20);
@@ -62,6 +63,7 @@
             this.rbtndospor.TabStop = true;
             this.rbtndospor.Text = "2x2";
             this.rbtndospor.UseVisualStyleBackColor = true;
+            this.rbtndospor.CheckedChanged += new System.EventHandler(this.rbtndospor_CheckedChanged);
             // 
             // rbtntrespor
             // 
@@ -70,7 +72,6 @@
             this.rbtntrespor.Name = "rbtntrespor";
             this.rbtntrespor.Size = new System.Drawing.Size(48, 20);
             this.rbtntrespor.TabIndex = 1;
-            this.rbtntrespor.TabStop = true;
             this.rbtntrespor.Text = "3x3";
             this.rbtntrespor.UseVisualStyleBackColor = true;
             // 
@@ -92,35 +93,44 @@
             this.label3.TabIndex = 2;
             this.label3.Text = "=";
             // 
-            // dataGridView1
+            // dGVdatouno
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(6, 189);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(166, 142);
-            this.dataGridView1.TabIndex = 3;
+            this.dGVdatouno.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dGVdatouno.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dGVdatouno.ColumnHeadersVisible = false;
+            this.dGVdatouno.Location = new System.Drawing.Point(6, 189);
+            this.dGVdatouno.Name = "dGVdatouno";
+            this.dGVdatouno.RowHeadersVisible = false;
+            this.dGVdatouno.RowHeadersWidth = 51;
+            this.dGVdatouno.RowTemplate.Height = 24;
+            this.dGVdatouno.Size = new System.Drawing.Size(166, 142);
+            this.dGVdatouno.TabIndex = 3;
             // 
-            // dataGridView2
+            // dGVdatodos
             // 
-            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView2.Location = new System.Drawing.Point(198, 189);
-            this.dataGridView2.Name = "dataGridView2";
-            this.dataGridView2.RowHeadersWidth = 51;
-            this.dataGridView2.RowTemplate.Height = 24;
-            this.dataGridView2.Size = new System.Drawing.Size(166, 142);
-            this.dataGridView2.TabIndex = 3;
+            this.dGVdatodos.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dGVdatodos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dGVdatodos.ColumnHeadersVisible = false;
+            this.dGVdatodos.Location = new System.Drawing.Point(198, 189);
+            this.dGVdatodos.Name = "dGVdatodos";
+            this.dGVdatodos.RowHeadersVisible = false;
+            this.dGVdatodos.RowHeadersWidth = 51;
+            this.dGVdatodos.RowTemplate.Height = 24;
+            this.dGVdatodos.Size = new System.Drawing.Size(166, 142);
+            this.dGVdatodos.TabIndex = 3;
             // 
-            // dataGridView3
+            // dGVresultado
             // 
-            this.dataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView3.Location = new System.Drawing.Point(390, 189);
-            this.dataGridView3.Name = "dataGridView3";
-            this.dataGridView3.RowHeadersWidth = 51;
-            this.dataGridView3.RowTemplate.Height = 24;
-            this.dataGridView3.Size = new System.Drawing.Size(166, 142);
-            this.dataGridView3.TabIndex = 3;
+            this.dGVresultado.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dGVresultado.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dGVresultado.ColumnHeadersVisible = false;
+            this.dGVresultado.Location = new System.Drawing.Point(390, 189);
+            this.dGVresultado.Name = "dGVresultado";
+            this.dGVresultado.RowHeadersVisible = false;
+            this.dGVresultado.RowHeadersWidth = 51;
+            this.dGVresultado.RowTemplate.Height = 24;
+            this.dGVresultado.Size = new System.Drawing.Size(166, 142);
+            this.dGVresultado.TabIndex = 3;
             // 
             // btnsuma
             // 
@@ -147,19 +157,19 @@
             this.ClientSize = new System.Drawing.Size(571, 499);
             this.Controls.Add(this.btnresta);
             this.Controls.Add(this.btnsuma);
-            this.Controls.Add(this.dataGridView3);
-            this.Controls.Add(this.dataGridView2);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.dGVresultado);
+            this.Controls.Add(this.dGVdatodos);
+            this.Controls.Add(this.dGVdatouno);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.lbloperacion);
             this.Controls.Add(this.rbtntrespor);
             this.Controls.Add(this.rbtndospor);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
-            this.Text = "Form1";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).EndInit();
+            this.Text = "Suma Y Resta de Matrices";
+            ((System.ComponentModel.ISupportInitialize)(this.dGVdatouno)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dGVdatodos)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dGVresultado)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -172,9 +182,9 @@
         private System.Windows.Forms.RadioButton rbtntrespor;
         private System.Windows.Forms.Label lbloperacion;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.DataGridView dataGridView2;
-        private System.Windows.Forms.DataGridView dataGridView3;
+        private System.Windows.Forms.DataGridView dGVdatouno;
+        private System.Windows.Forms.DataGridView dGVdatodos;
+        private System.Windows.Forms.DataGridView dGVresultado;
         private System.Windows.Forms.Button btnsuma;
         private System.Windows.Forms.Button btnresta;
     }

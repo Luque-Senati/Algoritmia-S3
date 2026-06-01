@@ -16,5 +16,19 @@ namespace Suma_y_Resta_de_Matrices_con_C_
         {
             InitializeComponent();
         }
+
+        string operacion = "2x2";
+
+        private void ConfigurarMatrices(int tamaño)
+        {
+            dGVdatouno.ColumnRemoved();
+            dGVdatodos.ColumnRemoved();
+            dGVresultado.ColumnRemoved();
+        }
+
+        private void rbtndospor_CheckedChanged(object sender, EventArgs e)
+        {
+            dGVdatouno.Column.Add("Column");
+        }
     }
 }
