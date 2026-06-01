@@ -16,5 +16,10 @@ namespace DVProgramación_Orientada_a_Objetos_POO_
         {
             InitializeComponent();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
