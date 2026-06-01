@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ciberseguridad\\Desktop\\GIT\\FormTrabajadores\\FormTrabajadores\\FormTrabajadores.csproj": {}
+    "C:\\Users\\Ciberseguridad\\source\\repos\\Luque-Senati\\Algoritmia-S3\\Sergio Cunurana C#\\FormTrabajadores\\FormTrabajadores\\FormTrabajadores.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ciberseguridad\\Desktop\\GIT\\FormTrabajadores\\FormTrabajadores\\FormTrabajadores.csproj": {
+    "C:\\Users\\Ciberseguridad\\source\\repos\\Luque-Senati\\Algoritmia-S3\\Sergio Cunurana C#\\FormTrabajadores\\FormTrabajadores\\FormTrabajadores.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ciberseguridad\\Desktop\\GIT\\FormTrabajadores\\FormTrabajadores\\FormTrabajadores.csproj",
+        "projectUniqueName": "C:\\Users\\Ciberseguridad\\source\\repos\\Luque-Senati\\Algoritmia-S3\\Sergio Cunurana C#\\FormTrabajadores\\FormTrabajadores\\FormTrabajadores.csproj",
         "projectName": "FormTrabajadores",
-        "projectPath": "C:\\Users\\Ciberseguridad\\Desktop\\GIT\\FormTrabajadores\\FormTrabajadores\\FormTrabajadores.csproj",
+        "projectPath": "C:\\Users\\Ciberseguridad\\source\\repos\\Luque-Senati\\Algoritmia-S3\\Sergio Cunurana C#\\FormTrabajadores\\FormTrabajadores\\FormTrabajadores.csproj",
         "packagesPath": "C:\\Users\\Ciberseguridad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ciberseguridad\\Desktop\\GIT\\FormTrabajadores\\FormTrabajadores\\obj\\",
+        "outputPath": "C:\\Users\\Ciberseguridad\\source\\repos\\Luque-Senati\\Algoritmia-S3\\Sergio Cunurana C#\\FormTrabajadores\\FormTrabajadores\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Ciberseguridad\\AppData\\Roaming\\NuGet\\NuGet.Config",

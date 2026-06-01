@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FormTrabajadores")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+737f1e838a6b253fabd4e413c8b7937981baec13")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2d074c6f114d48ba90718181069b7c77b5e1df64")]
 [assembly: System.Reflection.AssemblyProductAttribute("FormTrabajadores")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FormTrabajadores")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
