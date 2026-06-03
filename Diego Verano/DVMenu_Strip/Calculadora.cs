@@ -76,6 +76,7 @@ namespace DVMenu_Strip
 
         private void Btnsuma_Click(object sender, EventArgs e)
         {
+            operacion = "+";
             num1 = Convert.ToDouble(Txtbox.Text);
             Txtbox.Text = "";
 
@@ -83,22 +84,47 @@ namespace DVMenu_Strip
 
         private void Btnmenos_Click(object sender, EventArgs e)
         {
-
+            operacion = "-";
+            num1 = Convert.ToDouble(Txtbox.Text);
+            Txtbox.Text = "";
         }
 
         private void Btnmulti_Click(object sender, EventArgs e)
         {
-
+            operacion = "*";
+            num1 = Convert.ToDouble(Txtbox.Text);
+            Txtbox.Text = "";
         }
 
         private void Btndivision_Click_1(object sender, EventArgs e)
         {
-
+            operacion = "/";
+            num1 = Convert.ToDouble(Txtbox.Text);
+            Txtbox.Text = "";
         }
 
         private void Btnigual_Click(object sender, EventArgs e)
         {
+            num2 = Convert.ToDouble(Txtbox.Text);
 
+            switch(operacion)
+            {
+                case "+":
+                    Txtbox.Text = $"{num1 + num2}";
+                    break;
+
+                case "-":
+                    Txtbox.Text = $"{num1 - num2}";
+                    break;
+
+                case "*":
+                    Txtbox.Text = $"{num1 * num2}";
+                    break;
+
+                case "/":
+                    Txtbox.Text = $"{num1 / num2}";
+                    break;
+            }    
         }
 
         private void Btnlimpiar_Click(object sender, EventArgs e)
