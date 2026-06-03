@@ -30,14 +30,14 @@
         {
             this.menuStrip2 = new System.Windows.Forms.MenuStrip();
             this.formToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.calculadoraToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.facturaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.fondoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.aCercaDeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.fondoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.aCercaDeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.calculadoraToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.facturaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.menuStrip2.SuspendLayout();
@@ -65,14 +65,40 @@
             this.formToolStripMenuItem.Size = new System.Drawing.Size(79, 24);
             this.formToolStripMenuItem.Text = "Formato";
             // 
+            // calculadoraToolStripMenuItem
+            // 
+            this.calculadoraToolStripMenuItem.Name = "calculadoraToolStripMenuItem";
+            this.calculadoraToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.calculadoraToolStripMenuItem.Text = "Calculadora";
+            this.calculadoraToolStripMenuItem.Click += new System.EventHandler(this.calculadoraToolStripMenuItem_Click);
+            // 
+            // facturaToolStripMenuItem
+            // 
+            this.facturaToolStripMenuItem.Name = "facturaToolStripMenuItem";
+            this.facturaToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.facturaToolStripMenuItem.Text = "Factura";
+            this.facturaToolStripMenuItem.Click += new System.EventHandler(this.facturaToolStripMenuItem_Click);
+            // 
+            // fondoToolStripMenuItem
+            // 
+            this.fondoToolStripMenuItem.Name = "fondoToolStripMenuItem";
+            this.fondoToolStripMenuItem.Size = new System.Drawing.Size(65, 24);
+            this.fondoToolStripMenuItem.Text = "Fondo";
+            // 
+            // aCercaDeToolStripMenuItem
+            // 
+            this.aCercaDeToolStripMenuItem.Name = "aCercaDeToolStripMenuItem";
+            this.aCercaDeToolStripMenuItem.Size = new System.Drawing.Size(93, 24);
+            this.aCercaDeToolStripMenuItem.Text = "Acerca de ";
+            // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Red;
-            this.label1.Location = new System.Drawing.Point(12, 55);
+            this.label1.Location = new System.Drawing.Point(12, 54);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(541, 39);
+            this.label1.Size = new System.Drawing.Size(521, 38);
             this.label1.TabIndex = 2;
             this.label1.Text = "Programación Orientada a Objetos";
             // 
@@ -106,30 +132,6 @@
             this.dateTimePicker1.TabIndex = 3;
             this.dateTimePicker1.Value = new System.DateTime(2026, 5, 28, 0, 0, 0, 0);
             // 
-            // fondoToolStripMenuItem
-            // 
-            this.fondoToolStripMenuItem.Name = "fondoToolStripMenuItem";
-            this.fondoToolStripMenuItem.Size = new System.Drawing.Size(65, 24);
-            this.fondoToolStripMenuItem.Text = "Fondo";
-            // 
-            // aCercaDeToolStripMenuItem
-            // 
-            this.aCercaDeToolStripMenuItem.Name = "aCercaDeToolStripMenuItem";
-            this.aCercaDeToolStripMenuItem.Size = new System.Drawing.Size(93, 24);
-            this.aCercaDeToolStripMenuItem.Text = "Acerca de ";
-            // 
-            // calculadoraToolStripMenuItem
-            // 
-            this.calculadoraToolStripMenuItem.Name = "calculadoraToolStripMenuItem";
-            this.calculadoraToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.calculadoraToolStripMenuItem.Text = "Calculadora";
-            // 
-            // facturaToolStripMenuItem
-            // 
-            this.facturaToolStripMenuItem.Name = "facturaToolStripMenuItem";
-            this.facturaToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.facturaToolStripMenuItem.Text = "Factura";
-            // 
             // label4
             // 
             this.label4.AutoSize = true;
@@ -149,7 +151,7 @@
             this.label5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label5.Location = new System.Drawing.Point(219, 351);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(112, 39);
+            this.label5.Size = new System.Drawing.Size(108, 38);
             this.label5.TabIndex = 4;
             this.label5.Text = "Fecha";
             // 

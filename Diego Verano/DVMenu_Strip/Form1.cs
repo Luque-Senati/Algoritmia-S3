@@ -16,5 +16,17 @@ namespace DVMenu_Strip
         {
             InitializeComponent();
         }
+
+        private void calculadoraToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Calculadora calcu = new Calculadora();
+            calcu.Show();
+        }
+
+        private void facturaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Factura factu = new Factura();
+            factu.Show();
+        }
     }
 }
