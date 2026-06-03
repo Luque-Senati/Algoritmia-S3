@@ -24,6 +24,7 @@ namespace DVMenu_Strip
         double num2 = 0;
 
 
+        //Botones Numerales
         private void Btnuno_Click(object sender, EventArgs e)
         {
             Txtbox.Text = Txtbox.Text + "1";
@@ -74,6 +75,7 @@ namespace DVMenu_Strip
             Txtbox.Text = Txtbox + "0";
         }
 
+        //Botones de Operaciones
         private void Btnsuma_Click(object sender, EventArgs e)
         {
             operacion = "+";
