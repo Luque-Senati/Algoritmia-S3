@@ -70,6 +70,19 @@ namespace DVMenu_Strip
         //Codigo || Nombre || Precio || Cantidad || Total
         private void button1_Click(object sender, EventArgs e)
         {
+
+            if(string.IsNullOrEmpty(Cbproducto.Text))
+            {
+                MessageBox.Show("Por favor ingresar un producto","Alerta", MessageBoxButtons.OK, MessageBoxIcon.Error );
+                return; //Para evitar el error 
+            }
+
+            if (string.IsNullOrEmpty(Txtcantidad.Text))
+            {
+                MessageBox.Show("Por favor ingrese una cantidad","Alerta", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
             DataGridViewRow file = new DataGridViewRow();
             file.CreateCells(DgvTabla);
 
@@ -78,10 +91,13 @@ namespace DVMenu_Strip
             file.Cells[2].Value = Lblprecio.Text;
             file.Cells[3].Value = Txtcantidad.Text;
             file.Cells[4].Value = (float.Parse(Lblprecio.Text) * float.Parse(Txtcantidad.Text)).ToString();
-            // problemas con esta linea 
+            
             DgvTabla.Rows.Add(file);
 
             Lblcodigo.Text = Lblnombre.Text = Lblprecio.Text = Txtcantidad.Text = "";
+
+            //Agregar para que funcione
+            obtencionTotal();
 
         }
 
@@ -100,10 +116,43 @@ namespace DVMenu_Strip
             Lblpagar.Text = costototal.ToString();
         }
 
+        private void Btneliminar_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                DialogResult rppta = MessageBox.Show("¿Desea eliminar el producto?", "Eliminación", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+                if (rppta == DialogResult.Yes)
+                {
+                    DgvTabla.Rows.Remove(DgvTabla.CurrentRow);
+                }
+
+            }
+            catch
+            {
+
+            }
+            obtencionTotal();
+        }
+
+        private void Txtefectivo_TextChanged(object sender, EventArgs e)
+        {
+            try
+            {
+                Lbldevolucion.Text = (float.Parse(Txtefectivo.Text) - float.Parse(Lblpagar.Text)).ToString();
+            }
+            catch 
+            { 
+            
+            }
+        }
+
 
         private void Lblpagar_Click(object sender, EventArgs e)
         {
 
         }
+
+        
     }
 }
