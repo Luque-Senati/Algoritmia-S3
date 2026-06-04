@@ -1,0 +1,14 @@
+C:\Users\Ciberseguridad\source\repos\Matriz\Matriz\bin\Debug\Matriz.exe.config
+C:\Users\Ciberseguridad\source\repos\Matriz\Matriz\bin\Debug\Matriz.exe
+C:\Users\Ciberseguridad\source\repos\Matriz\Matriz\bin\Debug\Matriz.pdb
+C:\Users\Ciberseguridad\source\repos\Matriz\Matriz\bin\Debug\Matriz.xml
+C:\Users\Ciberseguridad\source\repos\Matriz\Matriz\obj\Debug\Matriz.vbproj.AssemblyReference.cache
+C:\Users\Ciberseguridad\source\repos\Matriz\Matriz\obj\Debug\Matriz.Form1.resources
+C:\Users\Ciberseguridad\source\repos\Matriz\Matriz\obj\Debug\Matriz.Resources.resources
+C:\Users\Ciberseguridad\source\repos\Matriz\Matriz\obj\Debug\Matriz.vbproj.GenerateResource.cache
+C:\Users\Ciberseguridad\source\repos\Matriz\Matriz\obj\Debug\Matriz.vbproj.CoreCompileInputs.cache
+C:\Users\Ciberseguridad\source\repos\Matriz\Matriz\obj\Debug\Matriz.exe
+C:\Users\Ciberseguridad\source\repos\Matriz\Matriz\obj\Debug\Matriz.xml
+C:\Users\Ciberseguridad\source\repos\Matriz\Matriz\obj\Debug\Matriz.pdb
+C:\Users\Ciberseguridad\source\repos\Matriz\Matriz\obj\Debug\Matriz.Form2.resources
+C:\Users\Ciberseguridad\source\repos\Matriz\Matriz\obj\Debug\Matriz.Form3.resources
