@@ -1,0 +1,16 @@
+C:\Users\Ciberseguridad\source\repos\formulario de temperatura1\formulario de temperatura1\bin\Debug\net10.0-windows\formulario de temperatura1.exe
+C:\Users\Ciberseguridad\source\repos\formulario de temperatura1\formulario de temperatura1\bin\Debug\net10.0-windows\formulario de temperatura1.deps.json
+C:\Users\Ciberseguridad\source\repos\formulario de temperatura1\formulario de temperatura1\bin\Debug\net10.0-windows\formulario de temperatura1.runtimeconfig.json
+C:\Users\Ciberseguridad\source\repos\formulario de temperatura1\formulario de temperatura1\bin\Debug\net10.0-windows\formulario de temperatura1.dll
+C:\Users\Ciberseguridad\source\repos\formulario de temperatura1\formulario de temperatura1\bin\Debug\net10.0-windows\formulario de temperatura1.pdb
+C:\Users\Ciberseguridad\source\repos\formulario de temperatura1\formulario de temperatura1\obj\Debug\net10.0-windows\formulario_de_temperatura1.Form1.resources
+C:\Users\Ciberseguridad\source\repos\formulario de temperatura1\formulario de temperatura1\obj\Debug\net10.0-windows\formulario de temperatura1.csproj.GenerateResource.cache
+C:\Users\Ciberseguridad\source\repos\formulario de temperatura1\formulario de temperatura1\obj\Debug\net10.0-windows\formulario de temperatura1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ciberseguridad\source\repos\formulario de temperatura1\formulario de temperatura1\obj\Debug\net10.0-windows\formulario de temperatura1.AssemblyInfoInputs.cache
+C:\Users\Ciberseguridad\source\repos\formulario de temperatura1\formulario de temperatura1\obj\Debug\net10.0-windows\formulario de temperatura1.AssemblyInfo.cs
+C:\Users\Ciberseguridad\source\repos\formulario de temperatura1\formulario de temperatura1\obj\Debug\net10.0-windows\formulario de temperatura1.csproj.CoreCompileInputs.cache
+C:\Users\Ciberseguridad\source\repos\formulario de temperatura1\formulario de temperatura1\obj\Debug\net10.0-windows\formulario de temperatura1.dll
+C:\Users\Ciberseguridad\source\repos\formulario de temperatura1\formulario de temperatura1\obj\Debug\net10.0-windows\refint\formulario de temperatura1.dll
+C:\Users\Ciberseguridad\source\repos\formulario de temperatura1\formulario de temperatura1\obj\Debug\net10.0-windows\formulario de temperatura1.pdb
+C:\Users\Ciberseguridad\source\repos\formulario de temperatura1\formulario de temperatura1\obj\Debug\net10.0-windows\formulario de temperatura1.genruntimeconfig.cache
+C:\Users\Ciberseguridad\source\repos\formulario de temperatura1\formulario de temperatura1\obj\Debug\net10.0-windows\ref\formulario de temperatura1.dll
