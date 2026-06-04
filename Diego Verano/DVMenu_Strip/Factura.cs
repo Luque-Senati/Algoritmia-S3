@@ -120,7 +120,8 @@ namespace DVMenu_Strip
         {
             try
             {
-                DialogResult rppta = MessageBox.Show("¿Desea eliminar el producto?", "Eliminación", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                DialogResult rppta = MessageBox.Show("¿Desea eliminar el producto?", "Eliminación", 
+                    MessageBoxButtons.YesNo, MessageBoxIcon.Question);
 
                 if (rppta == DialogResult.Yes)
                 {
