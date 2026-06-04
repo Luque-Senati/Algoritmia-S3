@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "Validador de caracteres/1.0.0": {
+        "runtime": {
+          "Validador de caracteres.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Validador de caracteres/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
