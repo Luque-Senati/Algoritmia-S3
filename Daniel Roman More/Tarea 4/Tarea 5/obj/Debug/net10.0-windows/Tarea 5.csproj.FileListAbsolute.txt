@@ -1,0 +1,16 @@
+C:\Users\Ciberseguridad\source\repos\Tarea 5\Tarea 5\bin\Debug\net10.0-windows\Tarea 5.exe
+C:\Users\Ciberseguridad\source\repos\Tarea 5\Tarea 5\bin\Debug\net10.0-windows\Tarea 5.deps.json
+C:\Users\Ciberseguridad\source\repos\Tarea 5\Tarea 5\bin\Debug\net10.0-windows\Tarea 5.runtimeconfig.json
+C:\Users\Ciberseguridad\source\repos\Tarea 5\Tarea 5\bin\Debug\net10.0-windows\Tarea 5.dll
+C:\Users\Ciberseguridad\source\repos\Tarea 5\Tarea 5\bin\Debug\net10.0-windows\Tarea 5.pdb
+C:\Users\Ciberseguridad\source\repos\Tarea 5\Tarea 5\obj\Debug\net10.0-windows\Tarea_5.Form1.resources
+C:\Users\Ciberseguridad\source\repos\Tarea 5\Tarea 5\obj\Debug\net10.0-windows\Tarea 5.csproj.GenerateResource.cache
+C:\Users\Ciberseguridad\source\repos\Tarea 5\Tarea 5\obj\Debug\net10.0-windows\Tarea 5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ciberseguridad\source\repos\Tarea 5\Tarea 5\obj\Debug\net10.0-windows\Tarea 5.AssemblyInfoInputs.cache
+C:\Users\Ciberseguridad\source\repos\Tarea 5\Tarea 5\obj\Debug\net10.0-windows\Tarea 5.AssemblyInfo.cs
+C:\Users\Ciberseguridad\source\repos\Tarea 5\Tarea 5\obj\Debug\net10.0-windows\Tarea 5.csproj.CoreCompileInputs.cache
+C:\Users\Ciberseguridad\source\repos\Tarea 5\Tarea 5\obj\Debug\net10.0-windows\Tarea 5.dll
+C:\Users\Ciberseguridad\source\repos\Tarea 5\Tarea 5\obj\Debug\net10.0-windows\refint\Tarea 5.dll
+C:\Users\Ciberseguridad\source\repos\Tarea 5\Tarea 5\obj\Debug\net10.0-windows\Tarea 5.pdb
+C:\Users\Ciberseguridad\source\repos\Tarea 5\Tarea 5\obj\Debug\net10.0-windows\Tarea 5.genruntimeconfig.cache
+C:\Users\Ciberseguridad\source\repos\Tarea 5\Tarea 5\obj\Debug\net10.0-windows\ref\Tarea 5.dll
