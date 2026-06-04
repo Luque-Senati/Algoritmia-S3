@@ -1,0 +1,16 @@
+C:\Users\Ciberseguridad\source\repos\Validador de caracteres\Validador de caracteres\bin\Debug\net10.0-windows\Validador de caracteres.exe
+C:\Users\Ciberseguridad\source\repos\Validador de caracteres\Validador de caracteres\bin\Debug\net10.0-windows\Validador de caracteres.deps.json
+C:\Users\Ciberseguridad\source\repos\Validador de caracteres\Validador de caracteres\bin\Debug\net10.0-windows\Validador de caracteres.runtimeconfig.json
+C:\Users\Ciberseguridad\source\repos\Validador de caracteres\Validador de caracteres\bin\Debug\net10.0-windows\Validador de caracteres.dll
+C:\Users\Ciberseguridad\source\repos\Validador de caracteres\Validador de caracteres\bin\Debug\net10.0-windows\Validador de caracteres.pdb
+C:\Users\Ciberseguridad\source\repos\Validador de caracteres\Validador de caracteres\obj\Debug\net10.0-windows\Validador_de_caracteres.Form1.resources
+C:\Users\Ciberseguridad\source\repos\Validador de caracteres\Validador de caracteres\obj\Debug\net10.0-windows\Validador de caracteres.csproj.GenerateResource.cache
+C:\Users\Ciberseguridad\source\repos\Validador de caracteres\Validador de caracteres\obj\Debug\net10.0-windows\Validador de caracteres.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ciberseguridad\source\repos\Validador de caracteres\Validador de caracteres\obj\Debug\net10.0-windows\Validador de caracteres.AssemblyInfoInputs.cache
+C:\Users\Ciberseguridad\source\repos\Validador de caracteres\Validador de caracteres\obj\Debug\net10.0-windows\Validador de caracteres.AssemblyInfo.cs
+C:\Users\Ciberseguridad\source\repos\Validador de caracteres\Validador de caracteres\obj\Debug\net10.0-windows\Validador de caracteres.csproj.CoreCompileInputs.cache
+C:\Users\Ciberseguridad\source\repos\Validador de caracteres\Validador de caracteres\obj\Debug\net10.0-windows\Validador de caracteres.dll
+C:\Users\Ciberseguridad\source\repos\Validador de caracteres\Validador de caracteres\obj\Debug\net10.0-windows\refint\Validador de caracteres.dll
+C:\Users\Ciberseguridad\source\repos\Validador de caracteres\Validador de caracteres\obj\Debug\net10.0-windows\Validador de caracteres.pdb
+C:\Users\Ciberseguridad\source\repos\Validador de caracteres\Validador de caracteres\obj\Debug\net10.0-windows\Validador de caracteres.genruntimeconfig.cache
+C:\Users\Ciberseguridad\source\repos\Validador de caracteres\Validador de caracteres\obj\Debug\net10.0-windows\ref\Validador de caracteres.dll

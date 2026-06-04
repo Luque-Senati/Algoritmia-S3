@@ -29,11 +29,11 @@ Partial Class Menudeopciones
         MenuStrip1 = New MenuStrip()
         FormatoToolStripMenuItem = New ToolStripMenuItem()
         OtraPestañaToolStripMenuItem = New ToolStripMenuItem()
+        FacturaToolStripMenuItem = New ToolStripMenuItem()
         FondoToolStripMenuItem = New ToolStripMenuItem()
         AcercaDeToolStripMenuItem = New ToolStripMenuItem()
         Label4 = New Label()
         DateTimePicker1 = New DateTimePicker()
-        FacturaToolStripMenuItem = New ToolStripMenuItem()
         MenuStrip1.SuspendLayout()
         SuspendLayout()
         ' 
@@ -41,9 +41,9 @@ Partial Class Menudeopciones
         ' 
         Label1.Font = New Font("Arial", 14.25F, FontStyle.Bold)
         Label1.ForeColor = Color.Red
-        Label1.Location = New Point(146, 45)
+        Label1.Location = New Point(132, 63)
         Label1.Name = "Label1"
-        Label1.Size = New Size(342, 34)
+        Label1.Size = New Size(443, 45)
         Label1.TabIndex = 0
         Label1.Text = "Programacion Orientada a Objetos"
         Label1.TextAlign = ContentAlignment.MiddleCenter
@@ -53,9 +53,9 @@ Partial Class Menudeopciones
         Label2.AutoSize = True
         Label2.Font = New Font("Arial", 14.25F, FontStyle.Bold)
         Label2.ForeColor = Color.Red
-        Label2.Location = New Point(70, 110)
+        Label2.Location = New Point(80, 147)
         Label2.Name = "Label2"
-        Label2.Size = New Size(221, 22)
+        Label2.Size = New Size(272, 29)
         Label2.TabIndex = 0
         Label2.Text = "Diego Verano Laverian"
         ' 
@@ -64,18 +64,20 @@ Partial Class Menudeopciones
         Label3.AutoSize = True
         Label3.Font = New Font("Arial", 14.25F, FontStyle.Bold)
         Label3.ForeColor = Color.Red
-        Label3.Location = New Point(70, 159)
+        Label3.Location = New Point(80, 212)
         Label3.Name = "Label3"
-        Label3.Size = New Size(79, 22)
+        Label3.Size = New Size(99, 29)
         Label3.TabIndex = 0
         Label3.Text = "SENATI"
         ' 
         ' MenuStrip1
         ' 
+        MenuStrip1.ImageScalingSize = New Size(20, 20)
         MenuStrip1.Items.AddRange(New ToolStripItem() {FormatoToolStripMenuItem, FondoToolStripMenuItem, AcercaDeToolStripMenuItem})
         MenuStrip1.Location = New Point(0, 0)
         MenuStrip1.Name = "MenuStrip1"
-        MenuStrip1.Size = New Size(618, 24)
+        MenuStrip1.Padding = New Padding(7, 3, 0, 3)
+        MenuStrip1.Size = New Size(706, 30)
         MenuStrip1.TabIndex = 1
         MenuStrip1.Text = "MenuStrip1"
         ' 
@@ -83,25 +85,31 @@ Partial Class Menudeopciones
         ' 
         FormatoToolStripMenuItem.DropDownItems.AddRange(New ToolStripItem() {OtraPestañaToolStripMenuItem, FacturaToolStripMenuItem})
         FormatoToolStripMenuItem.Name = "FormatoToolStripMenuItem"
-        FormatoToolStripMenuItem.Size = New Size(64, 20)
+        FormatoToolStripMenuItem.Size = New Size(79, 24)
         FormatoToolStripMenuItem.Text = "Formato"
         ' 
         ' OtraPestañaToolStripMenuItem
         ' 
         OtraPestañaToolStripMenuItem.Name = "OtraPestañaToolStripMenuItem"
-        OtraPestañaToolStripMenuItem.Size = New Size(180, 22)
+        OtraPestañaToolStripMenuItem.Size = New Size(224, 26)
         OtraPestañaToolStripMenuItem.Text = "Calculadora"
+        ' 
+        ' FacturaToolStripMenuItem
+        ' 
+        FacturaToolStripMenuItem.Name = "FacturaToolStripMenuItem"
+        FacturaToolStripMenuItem.Size = New Size(224, 26)
+        FacturaToolStripMenuItem.Text = "Factura"
         ' 
         ' FondoToolStripMenuItem
         ' 
         FondoToolStripMenuItem.Name = "FondoToolStripMenuItem"
-        FondoToolStripMenuItem.Size = New Size(53, 20)
+        FondoToolStripMenuItem.Size = New Size(65, 24)
         FondoToolStripMenuItem.Text = "Fondo"
         ' 
         ' AcercaDeToolStripMenuItem
         ' 
         AcercaDeToolStripMenuItem.Name = "AcercaDeToolStripMenuItem"
-        AcercaDeToolStripMenuItem.Size = New Size(80, 20)
+        AcercaDeToolStripMenuItem.Size = New Size(98, 24)
         AcercaDeToolStripMenuItem.Text = "Acerca de..."
         ' 
         ' Label4
@@ -110,30 +118,25 @@ Partial Class Menudeopciones
         Label4.BackColor = Color.FromArgb(CByte(128), CByte(128), CByte(255))
         Label4.Font = New Font("Arial", 20.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label4.ForeColor = SystemColors.ControlText
-        Label4.Location = New Point(270, 320)
+        Label4.Location = New Point(309, 427)
         Label4.Name = "Label4"
-        Label4.Size = New Size(93, 32)
+        Label4.Size = New Size(115, 40)
         Label4.TabIndex = 2
         Label4.Text = "Fecha"
         ' 
         ' DateTimePicker1
         ' 
-        DateTimePicker1.Location = New Point(213, 281)
+        DateTimePicker1.Location = New Point(243, 375)
+        DateTimePicker1.Margin = New Padding(3, 4, 3, 4)
         DateTimePicker1.Name = "DateTimePicker1"
-        DateTimePicker1.Size = New Size(234, 23)
+        DateTimePicker1.Size = New Size(267, 27)
         DateTimePicker1.TabIndex = 3
         ' 
-        ' FacturaToolStripMenuItem
+        ' Menudeopciones
         ' 
-        FacturaToolStripMenuItem.Name = "FacturaToolStripMenuItem"
-        FacturaToolStripMenuItem.Size = New Size(180, 22)
-        FacturaToolStripMenuItem.Text = "Factura"
-        ' 
-        ' Form1
-        ' 
-        AutoScaleDimensions = New SizeF(7F, 15F)
+        AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(618, 468)
+        ClientSize = New Size(706, 624)
         Controls.Add(DateTimePicker1)
         Controls.Add(Label4)
         Controls.Add(Label3)
@@ -142,7 +145,8 @@ Partial Class Menudeopciones
         Controls.Add(MenuStrip1)
         Icon = CType(resources.GetObject("$this.Icon"), Icon)
         MainMenuStrip = MenuStrip1
-        Name = "Form1"
+        Margin = New Padding(3, 4, 3, 4)
+        Name = "Menudeopciones"
         Text = "Form1"
         MenuStrip1.ResumeLayout(False)
         MenuStrip1.PerformLayout()
