@@ -1,0 +1,16 @@
+C:\Users\Ciberseguridad\source\repos\calcular areas y perimetros1\calcular areas y perimetros1\bin\Debug\net10.0-windows\calcular areas y perimetros1.exe
+C:\Users\Ciberseguridad\source\repos\calcular areas y perimetros1\calcular areas y perimetros1\bin\Debug\net10.0-windows\calcular areas y perimetros1.deps.json
+C:\Users\Ciberseguridad\source\repos\calcular areas y perimetros1\calcular areas y perimetros1\bin\Debug\net10.0-windows\calcular areas y perimetros1.runtimeconfig.json
+C:\Users\Ciberseguridad\source\repos\calcular areas y perimetros1\calcular areas y perimetros1\bin\Debug\net10.0-windows\calcular areas y perimetros1.dll
+C:\Users\Ciberseguridad\source\repos\calcular areas y perimetros1\calcular areas y perimetros1\bin\Debug\net10.0-windows\calcular areas y perimetros1.pdb
+C:\Users\Ciberseguridad\source\repos\calcular areas y perimetros1\calcular areas y perimetros1\obj\Debug\net10.0-windows\calcular_areas_y_perimetros1.Form1.resources
+C:\Users\Ciberseguridad\source\repos\calcular areas y perimetros1\calcular areas y perimetros1\obj\Debug\net10.0-windows\calcular areas y perimetros1.csproj.GenerateResource.cache
+C:\Users\Ciberseguridad\source\repos\calcular areas y perimetros1\calcular areas y perimetros1\obj\Debug\net10.0-windows\calcular areas y perimetros1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ciberseguridad\source\repos\calcular areas y perimetros1\calcular areas y perimetros1\obj\Debug\net10.0-windows\calcular areas y perimetros1.AssemblyInfoInputs.cache
+C:\Users\Ciberseguridad\source\repos\calcular areas y perimetros1\calcular areas y perimetros1\obj\Debug\net10.0-windows\calcular areas y perimetros1.AssemblyInfo.cs
+C:\Users\Ciberseguridad\source\repos\calcular areas y perimetros1\calcular areas y perimetros1\obj\Debug\net10.0-windows\calcular areas y perimetros1.csproj.CoreCompileInputs.cache
+C:\Users\Ciberseguridad\source\repos\calcular areas y perimetros1\calcular areas y perimetros1\obj\Debug\net10.0-windows\calcular areas y perimetros1.dll
+C:\Users\Ciberseguridad\source\repos\calcular areas y perimetros1\calcular areas y perimetros1\obj\Debug\net10.0-windows\refint\calcular areas y perimetros1.dll
+C:\Users\Ciberseguridad\source\repos\calcular areas y perimetros1\calcular areas y perimetros1\obj\Debug\net10.0-windows\calcular areas y perimetros1.pdb
+C:\Users\Ciberseguridad\source\repos\calcular areas y perimetros1\calcular areas y perimetros1\obj\Debug\net10.0-windows\calcular areas y perimetros1.genruntimeconfig.cache
+C:\Users\Ciberseguridad\source\repos\calcular areas y perimetros1\calcular areas y perimetros1\obj\Debug\net10.0-windows\ref\calcular areas y perimetros1.dll
