@@ -1,0 +1,16 @@
+C:\Users\Ciberseguridad\source\repos\Consulta de datos con LINQ\Consulta de datos con LINQ\bin\Debug\net10.0-windows\Consulta de datos con LINQ.exe
+C:\Users\Ciberseguridad\source\repos\Consulta de datos con LINQ\Consulta de datos con LINQ\bin\Debug\net10.0-windows\Consulta de datos con LINQ.deps.json
+C:\Users\Ciberseguridad\source\repos\Consulta de datos con LINQ\Consulta de datos con LINQ\bin\Debug\net10.0-windows\Consulta de datos con LINQ.runtimeconfig.json
+C:\Users\Ciberseguridad\source\repos\Consulta de datos con LINQ\Consulta de datos con LINQ\bin\Debug\net10.0-windows\Consulta de datos con LINQ.dll
+C:\Users\Ciberseguridad\source\repos\Consulta de datos con LINQ\Consulta de datos con LINQ\bin\Debug\net10.0-windows\Consulta de datos con LINQ.pdb
+C:\Users\Ciberseguridad\source\repos\Consulta de datos con LINQ\Consulta de datos con LINQ\obj\Debug\net10.0-windows\Consulta_de_datos_con_LINQ.Form1.resources
+C:\Users\Ciberseguridad\source\repos\Consulta de datos con LINQ\Consulta de datos con LINQ\obj\Debug\net10.0-windows\Consulta de datos con LINQ.csproj.GenerateResource.cache
+C:\Users\Ciberseguridad\source\repos\Consulta de datos con LINQ\Consulta de datos con LINQ\obj\Debug\net10.0-windows\Consulta de datos con LINQ.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ciberseguridad\source\repos\Consulta de datos con LINQ\Consulta de datos con LINQ\obj\Debug\net10.0-windows\Consulta de datos con LINQ.AssemblyInfoInputs.cache
+C:\Users\Ciberseguridad\source\repos\Consulta de datos con LINQ\Consulta de datos con LINQ\obj\Debug\net10.0-windows\Consulta de datos con LINQ.AssemblyInfo.cs
+C:\Users\Ciberseguridad\source\repos\Consulta de datos con LINQ\Consulta de datos con LINQ\obj\Debug\net10.0-windows\Consulta de datos con LINQ.csproj.CoreCompileInputs.cache
+C:\Users\Ciberseguridad\source\repos\Consulta de datos con LINQ\Consulta de datos con LINQ\obj\Debug\net10.0-windows\Consulta de datos con LINQ.dll
+C:\Users\Ciberseguridad\source\repos\Consulta de datos con LINQ\Consulta de datos con LINQ\obj\Debug\net10.0-windows\refint\Consulta de datos con LINQ.dll
+C:\Users\Ciberseguridad\source\repos\Consulta de datos con LINQ\Consulta de datos con LINQ\obj\Debug\net10.0-windows\Consulta de datos con LINQ.pdb
+C:\Users\Ciberseguridad\source\repos\Consulta de datos con LINQ\Consulta de datos con LINQ\obj\Debug\net10.0-windows\Consulta de datos con LINQ.genruntimeconfig.cache
+C:\Users\Ciberseguridad\source\repos\Consulta de datos con LINQ\Consulta de datos con LINQ\obj\Debug\net10.0-windows\ref\Consulta de datos con LINQ.dll
