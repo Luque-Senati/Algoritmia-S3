@@ -1,0 +1,10 @@
+C:\Users\Ciberseguridad\source\repos\DescuentoZapatillasApp\DescuentoZapatillasApp\bin\Debug\DescuentoZapatillasApp.exe.config
+C:\Users\Ciberseguridad\source\repos\DescuentoZapatillasApp\DescuentoZapatillasApp\bin\Debug\DescuentoZapatillasApp.exe
+C:\Users\Ciberseguridad\source\repos\DescuentoZapatillasApp\DescuentoZapatillasApp\bin\Debug\DescuentoZapatillasApp.pdb
+C:\Users\Ciberseguridad\source\repos\DescuentoZapatillasApp\DescuentoZapatillasApp\obj\Debug\DescuentoZapatillasApp.csproj.AssemblyReference.cache
+C:\Users\Ciberseguridad\source\repos\DescuentoZapatillasApp\DescuentoZapatillasApp\obj\Debug\DescuentoZapatillasApp.Form1.resources
+C:\Users\Ciberseguridad\source\repos\DescuentoZapatillasApp\DescuentoZapatillasApp\obj\Debug\DescuentoZapatillasApp.Properties.Resources.resources
+C:\Users\Ciberseguridad\source\repos\DescuentoZapatillasApp\DescuentoZapatillasApp\obj\Debug\DescuentoZapatillasApp.csproj.GenerateResource.cache
+C:\Users\Ciberseguridad\source\repos\DescuentoZapatillasApp\DescuentoZapatillasApp\obj\Debug\DescuentoZapatillasApp.csproj.CoreCompileInputs.cache
+C:\Users\Ciberseguridad\source\repos\DescuentoZapatillasApp\DescuentoZapatillasApp\obj\Debug\DescuentoZapatillasApp.exe
+C:\Users\Ciberseguridad\source\repos\DescuentoZapatillasApp\DescuentoZapatillasApp\obj\Debug\DescuentoZapatillasApp.pdb
