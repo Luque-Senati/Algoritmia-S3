@@ -37,9 +37,9 @@
             // 
             // button1
             // 
-            button1.Location = new Point(39, 67);
+            button1.Location = new Point(39, 55);
             button1.Name = "button1";
-            button1.Size = new Size(151, 83);
+            button1.Size = new Size(151, 105);
             button1.TabIndex = 0;
             button1.Text = "Numeros";
             button1.UseVisualStyleBackColor = true;
@@ -55,7 +55,7 @@
             // 
             // BtnPostres
             // 
-            BtnPostres.Location = new Point(33, 244);
+            BtnPostres.Location = new Point(39, 244);
             BtnPostres.Name = "BtnPostres";
             BtnPostres.Size = new Size(151, 105);
             BtnPostres.TabIndex = 2;
@@ -83,7 +83,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(597, 450);
             Controls.Add(LstPostres);
             Controls.Add(BtnPostres);
             Controls.Add(IResultado);
