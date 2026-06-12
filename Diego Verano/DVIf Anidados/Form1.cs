@@ -16,5 +16,10 @@ namespace DVIf_Anidados
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Zapatillas.Ejercicio();
+        }
     }
 }

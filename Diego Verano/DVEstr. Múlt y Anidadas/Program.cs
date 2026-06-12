@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace DVIf_Anidados
+namespace DVMenu_Strip
 {
     internal static class Program
     {
@@ -17,7 +17,6 @@ namespace DVIf_Anidados
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
-
         }
     }
 }
