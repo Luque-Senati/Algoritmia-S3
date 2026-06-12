@@ -35,8 +35,8 @@
             this.BtnApagar = new System.Windows.Forms.Button();
             this.BtnDetener = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.LblTiempoParaelCambio = new System.Windows.Forms.Label();
             this.NuDAjustedeSemaforo = new System.Windows.Forms.NumericUpDown();
+            this.LblTiempoParaelCambio = new System.Windows.Forms.Label();
             this.LBRegistro = new System.Windows.Forms.ListBox();
             ((System.ComponentModel.ISupportInitialize)(this.PBSemaforo)).BeginInit();
             this.groupBox1.SuspendLayout();
@@ -47,7 +47,7 @@
             // 
             this.PBSemaforo.Location = new System.Drawing.Point(12, 12);
             this.PBSemaforo.Name = "PBSemaforo";
-            this.PBSemaforo.Size = new System.Drawing.Size(128, 259);
+            this.PBSemaforo.Size = new System.Drawing.Size(96, 211);
             this.PBSemaforo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.PBSemaforo.TabIndex = 0;
             this.PBSemaforo.TabStop = false;
@@ -97,6 +97,13 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Ajuste del tiempo";
             // 
+            // NuDAjustedeSemaforo
+            // 
+            this.NuDAjustedeSemaforo.Location = new System.Drawing.Point(19, 19);
+            this.NuDAjustedeSemaforo.Name = "NuDAjustedeSemaforo";
+            this.NuDAjustedeSemaforo.Size = new System.Drawing.Size(120, 20);
+            this.NuDAjustedeSemaforo.TabIndex = 0;
+            // 
             // LblTiempoParaelCambio
             // 
             this.LblTiempoParaelCambio.AutoSize = true;
@@ -106,13 +113,6 @@
             this.LblTiempoParaelCambio.Size = new System.Drawing.Size(65, 20);
             this.LblTiempoParaelCambio.TabIndex = 3;
             this.LblTiempoParaelCambio.Text = "Cuenta:";
-            // 
-            // NuDAjustedeSemaforo
-            // 
-            this.NuDAjustedeSemaforo.Location = new System.Drawing.Point(19, 19);
-            this.NuDAjustedeSemaforo.Name = "NuDAjustedeSemaforo";
-            this.NuDAjustedeSemaforo.Size = new System.Drawing.Size(120, 20);
-            this.NuDAjustedeSemaforo.TabIndex = 0;
             // 
             // LBRegistro
             // 
