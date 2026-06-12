@@ -1,0 +1,154 @@
+﻿namespace DVSemaforo
+{
+    partial class Form1
+    {
+        /// <summary>
+        /// Variable del diseñador necesaria.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Limpiar los recursos que se estén usando.
+        /// </summary>
+        /// <param name="disposing">true si los recursos administrados se deben desechar; false en caso contrario.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Código generado por el Diseñador de Windows Forms
+
+        /// <summary>
+        /// Método necesario para admitir el Diseñador. No se puede modificar
+        /// el contenido de este método con el editor de código.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.components = new System.ComponentModel.Container();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.PbSemaforo = new System.Windows.Forms.PictureBox();
+            this.BtnIniciar = new System.Windows.Forms.Button();
+            this.BtnDetener = new System.Windows.Forms.Button();
+            this.BtnApagar = new System.Windows.Forms.Button();
+            this.GbdelNumeralUpandDown = new System.Windows.Forms.GroupBox();
+            this.NuDVelocidadSema = new System.Windows.Forms.NumericUpDown();
+            this.LblCuentadeTiempo = new System.Windows.Forms.Label();
+            this.LbTiemposdeCambio = new System.Windows.Forms.ListBox();
+            ((System.ComponentModel.ISupportInitialize)(this.PbSemaforo)).BeginInit();
+            this.GbdelNumeralUpandDown.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.NuDVelocidadSema)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // PbSemaforo
+            // 
+            this.PbSemaforo.Image = global::DVSemaforo.Properties.Resources.semafo;
+            this.PbSemaforo.Location = new System.Drawing.Point(12, 12);
+            this.PbSemaforo.Name = "PbSemaforo";
+            this.PbSemaforo.Size = new System.Drawing.Size(134, 241);
+            this.PbSemaforo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.PbSemaforo.TabIndex = 0;
+            this.PbSemaforo.TabStop = false;
+            // 
+            // BtnIniciar
+            // 
+            this.BtnIniciar.Location = new System.Drawing.Point(25, 276);
+            this.BtnIniciar.Name = "BtnIniciar";
+            this.BtnIniciar.Size = new System.Drawing.Size(91, 37);
+            this.BtnIniciar.TabIndex = 1;
+            this.BtnIniciar.Text = "Iniciar";
+            this.BtnIniciar.UseVisualStyleBackColor = true;
+            // 
+            // BtnDetener
+            // 
+            this.BtnDetener.Location = new System.Drawing.Point(122, 276);
+            this.BtnDetener.Name = "BtnDetener";
+            this.BtnDetener.Size = new System.Drawing.Size(91, 37);
+            this.BtnDetener.TabIndex = 1;
+            this.BtnDetener.Text = "Detener";
+            this.BtnDetener.UseVisualStyleBackColor = true;
+            // 
+            // BtnApagar
+            // 
+            this.BtnApagar.Location = new System.Drawing.Point(219, 276);
+            this.BtnApagar.Name = "BtnApagar";
+            this.BtnApagar.Size = new System.Drawing.Size(91, 37);
+            this.BtnApagar.TabIndex = 1;
+            this.BtnApagar.Text = "Apagar";
+            this.BtnApagar.UseVisualStyleBackColor = true;
+            // 
+            // GbdelNumeralUpandDown
+            // 
+            this.GbdelNumeralUpandDown.Controls.Add(this.NuDVelocidadSema);
+            this.GbdelNumeralUpandDown.Location = new System.Drawing.Point(161, 16);
+            this.GbdelNumeralUpandDown.Name = "GbdelNumeralUpandDown";
+            this.GbdelNumeralUpandDown.Size = new System.Drawing.Size(156, 54);
+            this.GbdelNumeralUpandDown.TabIndex = 2;
+            this.GbdelNumeralUpandDown.TabStop = false;
+            this.GbdelNumeralUpandDown.Text = "Ajuste del Tiempo";
+            // 
+            // NuDVelocidadSema
+            // 
+            this.NuDVelocidadSema.Location = new System.Drawing.Point(14, 19);
+            this.NuDVelocidadSema.Name = "NuDVelocidadSema";
+            this.NuDVelocidadSema.Size = new System.Drawing.Size(133, 20);
+            this.NuDVelocidadSema.TabIndex = 0;
+            // 
+            // LblCuentadeTiempo
+            // 
+            this.LblCuentadeTiempo.AutoSize = true;
+            this.LblCuentadeTiempo.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblCuentadeTiempo.Location = new System.Drawing.Point(219, 73);
+            this.LblCuentadeTiempo.Name = "LblCuentadeTiempo";
+            this.LblCuentadeTiempo.Size = new System.Drawing.Size(19, 25);
+            this.LblCuentadeTiempo.TabIndex = 3;
+            this.LblCuentadeTiempo.Text = "-";
+            // 
+            // LbTiemposdeCambio
+            // 
+            this.LbTiemposdeCambio.FormattingEnabled = true;
+            this.LbTiemposdeCambio.Location = new System.Drawing.Point(166, 101);
+            this.LbTiemposdeCambio.Name = "LbTiemposdeCambio";
+            this.LbTiemposdeCambio.Size = new System.Drawing.Size(153, 147);
+            this.LbTiemposdeCambio.TabIndex = 4;
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(331, 338);
+            this.Controls.Add(this.LbTiemposdeCambio);
+            this.Controls.Add(this.LblCuentadeTiempo);
+            this.Controls.Add(this.GbdelNumeralUpandDown);
+            this.Controls.Add(this.BtnApagar);
+            this.Controls.Add(this.BtnDetener);
+            this.Controls.Add(this.BtnIniciar);
+            this.Controls.Add(this.PbSemaforo);
+            this.Name = "Form1";
+            this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.PbSemaforo)).EndInit();
+            this.GbdelNumeralUpandDown.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.NuDVelocidadSema)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.PictureBox PbSemaforo;
+        private System.Windows.Forms.Button BtnIniciar;
+        private System.Windows.Forms.Button BtnDetener;
+        private System.Windows.Forms.Button BtnApagar;
+        private System.Windows.Forms.GroupBox GbdelNumeralUpandDown;
+        private System.Windows.Forms.NumericUpDown NuDVelocidadSema;
+        private System.Windows.Forms.Label LblCuentadeTiempo;
+        private System.Windows.Forms.ListBox LbTiemposdeCambio;
+    }
+}
+
