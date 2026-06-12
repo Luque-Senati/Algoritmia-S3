@@ -29,27 +29,31 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.TiempoentreCambios = new System.Windows.Forms.Timer(this.components);
             this.PbSemaforo = new System.Windows.Forms.PictureBox();
             this.BtnIniciar = new System.Windows.Forms.Button();
             this.BtnDetener = new System.Windows.Forms.Button();
             this.BtnApagar = new System.Windows.Forms.Button();
             this.GbdelNumeralUpandDown = new System.Windows.Forms.GroupBox();
-            this.NuDVelocidadSema = new System.Windows.Forms.NumericUpDown();
+            this.NuDVelocidadSemaforo = new System.Windows.Forms.NumericUpDown();
             this.LblCuentadeTiempo = new System.Windows.Forms.Label();
             this.LbTiemposdeCambio = new System.Windows.Forms.ListBox();
             ((System.ComponentModel.ISupportInitialize)(this.PbSemaforo)).BeginInit();
             this.GbdelNumeralUpandDown.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.NuDVelocidadSema)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NuDVelocidadSemaforo)).BeginInit();
             this.SuspendLayout();
+            // 
+            // TiempoentreCambios
+            // 
+            this.TiempoentreCambios.Tick += new System.EventHandler(this.TiempoentreCambios_Tick);
             // 
             // PbSemaforo
             // 
             this.PbSemaforo.Image = global::DVSemaforo.Properties.Resources.semafo;
             this.PbSemaforo.Location = new System.Drawing.Point(12, 12);
             this.PbSemaforo.Name = "PbSemaforo";
-            this.PbSemaforo.Size = new System.Drawing.Size(134, 241);
-            this.PbSemaforo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.PbSemaforo.Size = new System.Drawing.Size(143, 236);
+            this.PbSemaforo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.PbSemaforo.TabIndex = 0;
             this.PbSemaforo.TabStop = false;
             // 
@@ -61,6 +65,7 @@
             this.BtnIniciar.TabIndex = 1;
             this.BtnIniciar.Text = "Iniciar";
             this.BtnIniciar.UseVisualStyleBackColor = true;
+            this.BtnIniciar.Click += new System.EventHandler(this.BtnIniciar_Click);
             // 
             // BtnDetener
             // 
@@ -70,6 +75,7 @@
             this.BtnDetener.TabIndex = 1;
             this.BtnDetener.Text = "Detener";
             this.BtnDetener.UseVisualStyleBackColor = true;
+            this.BtnDetener.Click += new System.EventHandler(this.BtnDetener_Click);
             // 
             // BtnApagar
             // 
@@ -79,10 +85,11 @@
             this.BtnApagar.TabIndex = 1;
             this.BtnApagar.Text = "Apagar";
             this.BtnApagar.UseVisualStyleBackColor = true;
+            this.BtnApagar.Click += new System.EventHandler(this.BtnApagar_Click);
             // 
             // GbdelNumeralUpandDown
             // 
-            this.GbdelNumeralUpandDown.Controls.Add(this.NuDVelocidadSema);
+            this.GbdelNumeralUpandDown.Controls.Add(this.NuDVelocidadSemaforo);
             this.GbdelNumeralUpandDown.Location = new System.Drawing.Point(161, 16);
             this.GbdelNumeralUpandDown.Name = "GbdelNumeralUpandDown";
             this.GbdelNumeralUpandDown.Size = new System.Drawing.Size(156, 54);
@@ -90,12 +97,13 @@
             this.GbdelNumeralUpandDown.TabStop = false;
             this.GbdelNumeralUpandDown.Text = "Ajuste del Tiempo";
             // 
-            // NuDVelocidadSema
+            // NuDVelocidadSemaforo
             // 
-            this.NuDVelocidadSema.Location = new System.Drawing.Point(14, 19);
-            this.NuDVelocidadSema.Name = "NuDVelocidadSema";
-            this.NuDVelocidadSema.Size = new System.Drawing.Size(133, 20);
-            this.NuDVelocidadSema.TabIndex = 0;
+            this.NuDVelocidadSemaforo.Location = new System.Drawing.Point(14, 19);
+            this.NuDVelocidadSemaforo.Name = "NuDVelocidadSemaforo";
+            this.NuDVelocidadSemaforo.Size = new System.Drawing.Size(133, 20);
+            this.NuDVelocidadSemaforo.TabIndex = 0;
+            this.NuDVelocidadSemaforo.ValueChanged += new System.EventHandler(this.NuDVelocidadSemaforo_ValueChanged);
             // 
             // LblCuentadeTiempo
             // 
@@ -106,14 +114,16 @@
             this.LblCuentadeTiempo.Size = new System.Drawing.Size(19, 25);
             this.LblCuentadeTiempo.TabIndex = 3;
             this.LblCuentadeTiempo.Text = "-";
+            this.LblCuentadeTiempo.Click += new System.EventHandler(this.LblCuentadeTiempo_Click);
             // 
             // LbTiemposdeCambio
             // 
             this.LbTiemposdeCambio.FormattingEnabled = true;
-            this.LbTiemposdeCambio.Location = new System.Drawing.Point(166, 101);
+            this.LbTiemposdeCambio.Location = new System.Drawing.Point(161, 101);
             this.LbTiemposdeCambio.Name = "LbTiemposdeCambio";
             this.LbTiemposdeCambio.Size = new System.Drawing.Size(153, 147);
             this.LbTiemposdeCambio.TabIndex = 4;
+            this.LbTiemposdeCambio.SelectedIndexChanged += new System.EventHandler(this.LbTiemposdeCambio_SelectedIndexChanged);
             // 
             // Form1
             // 
@@ -128,11 +138,11 @@
             this.Controls.Add(this.BtnIniciar);
             this.Controls.Add(this.PbSemaforo);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Semáforo";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.PbSemaforo)).EndInit();
             this.GbdelNumeralUpandDown.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.NuDVelocidadSema)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NuDVelocidadSemaforo)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -140,13 +150,13 @@
 
         #endregion
 
-        private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.Timer TiempoentreCambios;
         private System.Windows.Forms.PictureBox PbSemaforo;
         private System.Windows.Forms.Button BtnIniciar;
         private System.Windows.Forms.Button BtnDetener;
         private System.Windows.Forms.Button BtnApagar;
         private System.Windows.Forms.GroupBox GbdelNumeralUpandDown;
-        private System.Windows.Forms.NumericUpDown NuDVelocidadSema;
+        private System.Windows.Forms.NumericUpDown NuDVelocidadSemaforo;
         private System.Windows.Forms.Label LblCuentadeTiempo;
         private System.Windows.Forms.ListBox LbTiemposdeCambio;
     }
